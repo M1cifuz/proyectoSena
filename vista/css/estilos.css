@@ -1,0 +1,111 @@
+body{
+    background-color: #FFF5E0;
+}
+
+#contenedor{
+    width: 540px;
+    padding: 15px;
+    margin: 10px auto;
+    
+}
+
+.btn{
+    width: 100%;
+    margin: 10px 15px 0 0;
+}
+
+#imglogo{
+    width: 100%;
+    height: 100px;
+    margin: 10px auto;
+    display: block;
+}
+
+/** CSS de vista bienvenida**/
+
+
+#contenedor-bienvenida{
+    padding: 60px 100px;
+    border-radius: 45px;
+}
+
+#foto-bienvenida{
+
+    width: 338px;
+    height: 338px;
+    border-radius: 24px;
+}
+#hola{
+    color: #141E46;
+    text-align: center;
+
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.icons{
+    color: #141E46;
+    margin: 10px 25px;
+}
+
+
+
+
+/** CSS de vista iniciar sesion**/
+
+
+
+#contenedor-ingreso{
+    background-color: #DFD7BF;
+    padding: 60px 100px;
+    border-radius: 45px;
+}
+
+#div-olvido{
+    text-align: center;
+    color: darkslategray;
+}
+
+
+.iniciar{
+    color: #141E46;
+    background-color: aqua;
+   
+}
+.iniciar-sesion{
+    color: #141E46;
+    background-color: #DFD7BF;
+    display: flex;
+  /* justify-content: center;*/
+    width: 300px;
+    height: 500px;
+    border-radius: 45px;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+/** CSS de vista Registro**/
+
+#contenedor-registro{
+    background-color: #DFD7BF;
+    padding: 60px 100px;
+    border-radius: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
