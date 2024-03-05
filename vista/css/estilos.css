@@ -99,6 +99,97 @@ footer{
 }
 
 
+/** CSS de vista ayuda**/
+
+#img-logo-footer{
+    width: 140px;
+    height: 100px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#img-encabezado{
+    width: 500px;
+    height: 200px;
+}
+
+#area-trabajo{
+
+    background-color: #141E46;
+    margin-top: 100px;
+}
+
+.btn1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    width: 400px;
+    height: 70px;
+    background-color: #141E46;
+    color: white;
+    align-items: center;
+
+}
+
+#ayuda{
+    font-size: 3em;
+    color: #141E46;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px;
+    
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+
+/** CSS de vista preguntas frecuentes**/
+
+
+
+
+
+.mb-3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    width: 400px;
+    height: 70px;
+    background-color: #ffffff;
+    color: #000000;
+    align-items: center;
+    border-color: #ffffff;
+    align-items: center;
+
+}
+
+#encabezado{
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+    
+
+
 
 
 
