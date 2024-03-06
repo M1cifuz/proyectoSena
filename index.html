@@ -12,14 +12,98 @@
     <div id="contenedor">
         <!--Encabezado-->
         <div class="row justify-content-center">
+          <figure>
+            <header class="header">
+              <nav class="navbar">
           
+                <label class="labe_hamburguesa" for="menu_hamburguesa">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="50px" fill="currentColor" class="menu"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z" />
+                  </svg>
+                </label>
+                <input class="menu_hamburguesa" type="checkbox" id="menu_hamburguesa">
+          
+                <ul class="ul_links">
+                  <li class="li_links">
+          
+                    <a href="" class="link"> soporte</a>
+                  </li>
+                  <li class="li_links">
+                    <a href="" class="link">politicas</a>
+                  </li>
+                  <li class="li_links">
+                    <a href="" class="link">cerrar</a>
+                  </li>
+                </ul>
+              </nav>
+            </header>
+          
+            <div id="imglogo">
+              <img src="/vista/img/logo_-removebg-preview.png" alt="logo" width="100px" height="100px">
+          
+            </div>
+          
+            <img src="/vista/img/btn icono regreso(1).svg" alt="" width="16" height="16" class="devolver">
+          </figure>
         </div>
     
         <!--Contenido-->
         <div class="areaDeTrabajo">
-
-        </div>
+          <div class="hola">
             
+            <p><img src="/vista/img/icono-user.svg" alt="" >¡tu compra user @User!</p>
+
+          </div>
+        </div>
+        <section id="item-compra" class="col-12">
+          <div class="contenedor-imagen">
+            <img src="/vista/img/box.svg" alt="icono de caja" class="icono-caja">
+          </div>
+          <div class="caracteristicas">
+            <h2>nombre producto</h2>
+            <p>descripcion</p>
+            <p>precio</p>
+          </div>
+          <div class="contador">
+            <img src="/vista/img/menos.svg" alt="icono-menos"><p>01</p><img src="/vista/img/mas.svg" alt="icono-mas">
+          </div>
+        </section>
+        <section id="item-compra" class="col-12">
+          <div class="contenedor-imagen">
+            <img src="/vista/img/box.svg" alt="icono de caja" class="icono-caja">
+          </div>
+          <div class="caracteristicas">
+            <h2>nombre producto</h2>
+            <p>descripcion</p>
+            <p>precio</p>
+          </div>
+          <div class="contador">
+            <img src="/vista/img/menos.svg" alt="icono-menos"><p>01</p><img src="/vista/img/mas.svg" alt="icono-mas">
+          </div>
+        </section>
+        <section id="item-compra" class="col-12">
+          <div class="contenedor-imagen">
+            <img src="/vista/img/box.svg" alt="icono de caja" class="icono-caja">
+          </div>
+          <div class="caracteristicas">
+            <h2>nombre producto</h2>
+            <p>descripcion</p>
+            <p>precio</p>
+          </div>
+          <div class="contador">
+            <img src="/vista/img/menos.svg" alt="icono-menos"><p>01</p><img src="/vista/img/mas.svg" alt="icono-mas">
+          </div>
+        </section>
+        <section class="total-carrito">
+          <ul>
+            <li id="item-lista"><h3>subtotal</h3><h3>$10</h3></li>
+            <li id="item-lista"><h3>envio</h3><h3>$10</h3></li>
+            <li id="item-lista"><h3>total</h3><h3>$10</h3></li>
+          </ul>
+          <button type="button" class="btn btn-warning" id="boton-pagar">Pagar</button>
+        </section>
         <!--PieDePagina-->
         <div class="row">
           
@@ -180,7 +264,44 @@
 
         <!-- TEMPLATES PRODOCTOS-->
 
-
+    <template id="header-productos">
+      <figure>
+        <header class="header">
+          <nav class="navbar">
+      
+            <label class="labe_hamburguesa" for="menu_hamburguesa">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="50px" fill="currentColor" class="menu"
+                viewBox="0 0 16 16">
+                <path
+                  d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z" />
+              </svg>
+            </label>
+            <input class="menu_hamburguesa" type="checkbox" id="menu_hamburguesa">
+      
+            <ul class="ul_links">
+              <li class="li_links">
+      
+                <a href="" class="link"> soporte</a>
+              </li>
+              <li class="li_links">
+                <a href="" class="link">politicas</a>
+              </li>
+              <li class="li_links">
+                <a href="" class="link">cerrar</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      
+        <div id="imglogo">
+          <img src="/vista/img/logo_-removebg-preview.png" alt="logo" width="100px" height="100px">
+      
+        </div>
+      
+        <img src="/vista/img/btn icono regreso(1).svg" alt="" width="16" height="16" class="devolver">
+      </figure>
+    </template>
+        
 
 
 

@@ -1,12 +1,10 @@
 body{
     background-color: #FFF5E0;
 }
-
 #contenedor{
     width: 540px;
     padding: 15px;
     margin: 10px auto;
-    
 }
 
 .btn{
@@ -99,6 +97,156 @@ footer{
 }
 
 
+/** CSS de vista producto**/
+
+:root{
+    --color_primario:#FFF5E0;
+    --color_primariosuave:#FFF5E0;
+    --color_blanco:#333;
+    --altura_heater:88px;
+    --padding_left_rigth: 2rem;
+    --ancho_maximo: 1200px;
+}
+
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+.header{
+    height:var(--altura_heater) ;
+    background-color: var(--color_primario);
+
+}
+.navbar{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 var(--padding_left_rigth);
+}
+.menu_hamburguesa{
+    display: none;
+}
+.menu_hamburguesa:checked + .ul_links{
+    height: calc(100vh - var(--altura_heater));
+}
+.logo{
+    color: var(--color_blanco);
+}
+
+.menu{
+    color: var(--ancho_maximo);
+    cursor: pointer;
+}
+.ul_links{
+    width: 350px;
+    position: absolute;
+    top: var(--altura_heater);
+    left: 0;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    transition: all .3s;
+}
+.li_links0{
+
+}
+.link{
+    font-size: 3em;
+    color: var(--color_blanco);
+    font-weight: bold;
+}
+
+#logo-1{
+    
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+figure{
+display: flex;
+justify-content: space-between;
+}
+.menu{
+width: 70px;
+display: flex;
+justify-content: flex-start;
+height: 50px;
+margin: 10px 50px;
+}
+.devolver{
+margin: 10px; 
+width: 100px;
+height: 50px;
+display: flex;
+justify-content: flex-end;
+cursor: pointer;
+}
+
+
+.hola{
+   text-align: center;
+   
+    
+}
+/*aqui empieza la lista del carrito*/
+#item-compra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-imagen{
+    background-color: #ffffff;
+    width: 99px;
+    height: 95px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icono-caja{
+    width: 70px;
+    height: 70px;
+}
+.caracteristicas{
+    margin: auto auto;
+}
+.contador{
+    display: flex;
+    align-items: center;
+}
+.contador p{
+    padding: 0% 10%;
+}
+.total-carrito{
+    background-color: #141E46;
+    padding-bottom: 4%;
+    border-radius: 10px;
+}
+#item-lista{
+    color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4%;
+}
+#boton-pagar{
+    margin: auto;
+    border: none;
+}
+/*aqui termina la lista del carrito*/
+
 /** CSS de vista ayuda**/
 
 #img-logo-footer{
@@ -187,6 +335,11 @@ footer{
     justify-content: space-evenly;
     
 }
+
+
+
+
+
     
 
 
