@@ -7,6 +7,7 @@ body{
     margin: 10px auto;
 }
 
+<<<<<<< HEAD
 .btn-bienvenida{
     width: 100%;
     margin: 10px 15px 0 0;
@@ -19,6 +20,18 @@ body{
     width: 100PX;
     height: 100px;
   
+=======
+.btn{
+    width: 100%;
+    margin: 10px 15px 0 0;
+}
+
+#imglogo{
+    width: 100%;
+    height: 100px;
+    margin: 10px auto;
+    display: block;
+>>>>>>> 3037eefff06c2832c922f91f32d847b9040c0338
 }
 
 /** CSS de vista bienvenida**/
@@ -35,7 +48,11 @@ body{
     height: 338px;
     border-radius: 24px;
 }
+<<<<<<< HEAD
 #mensajeBievenida{
+=======
+#hola{
+>>>>>>> 3037eefff06c2832c922f91f32d847b9040c0338
     color: #141E46;
     text-align: center;
 
@@ -59,7 +76,11 @@ footer{
 
 
 
+<<<<<<< HEAD
 #contenedor-Ingreso{
+=======
+#contenedor-ingreso{
+>>>>>>> 3037eefff06c2832c922f91f32d847b9040c0338
     background-color: #DFD7BF;
     padding: 60px 100px;
     border-radius: 45px;
@@ -70,10 +91,14 @@ footer{
     color: darkslategray;
 }
 
+<<<<<<< HEAD
 .btn-iniciar-sesion{
     width: 100%;
     margin: 10px 15px 0 0;
 }
+=======
+
+>>>>>>> 3037eefff06c2832c922f91f32d847b9040c0338
 .iniciar{
     color: #141E46;
     background-color: aqua;
@@ -160,7 +185,10 @@ ol,ul{
     align-items: center;
     gap: 3em;
     transition: all .3s;
+<<<<<<< HEAD
     background-color: var(--color_primario);
+=======
+>>>>>>> 3037eefff06c2832c922f91f32d847b9040c0338
 }
 .li_links0{
 
@@ -202,7 +230,11 @@ cursor: pointer;
 }
 
 
+<<<<<<< HEAD
 .user{
+=======
+.hola{
+>>>>>>> 3037eefff06c2832c922f91f32d847b9040c0338
    text-align: center;
    
     
@@ -311,7 +343,11 @@ cursor: pointer;
 
 
 .mb-3{
+<<<<<<< HEAD
   
+=======
+    display: flex;
+>>>>>>> 3037eefff06c2832c922f91f32d847b9040c0338
     justify-content: center;
     width: 100%;
     align-items: center;
@@ -332,7 +368,11 @@ cursor: pointer;
 }
 
 #encabezado{
+<<<<<<< HEAD
     
+=======
+    background-color: #ffffff;
+>>>>>>> 3037eefff06c2832c922f91f32d847b9040c0338
     width: 100%;
     text-align: center;
     margin-bottom: 100px;
@@ -343,6 +383,7 @@ cursor: pointer;
 }
 
 
+<<<<<<< HEAD
 /** Vista producto 2 CSS**/
 
 
@@ -477,6 +518,8 @@ h2{
     margin: 35px 0;
 }
 
+=======
+>>>>>>> 3037eefff06c2832c922f91f32d847b9040c0338
 
 
 

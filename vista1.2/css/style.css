@@ -1,0 +1,86 @@
+#contenedor{
+    width: 540px;
+    padding: 15px;
+    margin: 10px auto;
+}
+#encabezado{
+    display: flex;
+    justify-content: center;
+}
+.logo-1{
+        width: 150px;
+        height: 100px;
+        margin: 10px auto;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+.menu{
+    width: 70px;
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    margin: 10px 50px;
+}
+#devolver{
+    margin: 10px; 
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+body{
+    background-color:#FFF5E0;
+    font-family: "Germania One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+#img-principal{
+    width: 389px;
+    height: 380px;
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 40px;
+}
+.tarjetas-1{
+    color: white;
+    width: 89px;
+    height: 73px;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #141E46;
+    text-align: center;
+}
+footer{
+    background-color: #BB2525;
+    /*position: relative;*/
+    border-radius: 10px;
+}
+.aviso{
+    color: white;
+    font-size: 25px;
+}
+.aviso2{
+    color: #DFD7BF;
+    width: 30%;
+    font-size: 20px;
+}
+.btn{
+    background-color: #FF6969;
+    border-radius: 10px;
+    height: 37px;
+    border: none;
+}
+.boton{
+    display: flex;
+    justify-content: space-between;
+}
+.caracteristicas{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}

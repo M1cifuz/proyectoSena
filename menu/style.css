@@ -1,0 +1,98 @@
+:root{
+    --color_primario:#DFD7BF;
+    --color_primariosuave:#FFF5E0;
+    --color_blanco:#333;
+    --altura_heater:88px;
+    --padding_left_rigth: 2rem;
+    --ancho_maximo: 1200px;
+}
+
+.body{
+    background-color: #333;
+    font-family: "Germania One", system-ui;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+.header{
+    height:var(--altura_heater) ;
+    background-color: var(--color_primario);
+
+}
+.navbar{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 var(--padding_left_rigth);
+}
+.menu_hamburguesa{
+    display: none;
+}
+.menu_hamburguesa:checked + .ul_links{
+    height: calc(100vh - var(--altura_heater));
+}
+.logo{
+    color: var(--color_blanco);
+}
+
+.menu{
+    color: var(--ancho_maximo);
+    cursor: pointer;
+}
+.ul_links{
+    width: 100%;
+    background-color: var(--color_primariosuave);
+    position: absolute;
+    top: var(--altura_heater);
+    left: 0;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    transition: all .3s;
+}
+.li_links0{
+
+}
+.link{
+    font-size: 3em;
+    color: var(--color_blanco);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
