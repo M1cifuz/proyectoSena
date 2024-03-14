@@ -6,7 +6,6 @@ body{
     padding: 15px;
     margin: 10px auto;
 }
-
 .btn-bienvenida{
     width: 100%;
     margin: 10px 15px 0 0;
@@ -14,23 +13,19 @@ body{
     color:   #ffffff;
     border-radius: 15px;
 }
-
-#imglogo{
-    width: 100PX;
-    height: 100px;
-  
+#areaDeTrabajo{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /** CSS de vista bienvenida**/
-
 
 #contenedor-bienvenida{
     padding: 60px 100px;
     border-radius: 45px;
 }
-
 #foto-bienvenida{
-
     width: 338px;
     height: 338px;
     border-radius: 24px;
@@ -38,38 +33,32 @@ body{
 #mensajeBievenida{
     color: #141E46;
     text-align: center;
-
 }
-
-
 footer{
     text-align: center;
     margin-top: 10px;
 }
-
 .icons{
     color: #141E46;
     margin: 10px 25px;
 }
 
-
-
-
 /** CSS de vista iniciar sesion**/
-
-
 
 #contenedor-Ingreso{
     background-color: #DFD7BF;
     padding: 60px 100px;
     border-radius: 45px;
 }
-
+.icono-usuario{
+    width: 80px;
+    height: 50px;
+    color: #141e46;
+}
 #div-olvido{
     text-align: center;
     color: darkslategray;
 }
-
 .btn-iniciar-sesion{
     width: 100%;
     margin: 10px 15px 0 0;
@@ -77,7 +66,6 @@ footer{
 .iniciar{
     color: #141E46;
     background-color: aqua;
-   
 }
 .iniciar-sesion{
     color: #141E46;
@@ -91,8 +79,6 @@ footer{
     flex-direction: column;
 }
 
-
-
 /** CSS de vista Registro**/
 
 #contenedor-registro{
@@ -100,7 +86,6 @@ footer{
     padding: 60px 100px;
     border-radius: 45px;
 }
-
 
 /** CSS de vista producto**/
 
@@ -112,26 +97,14 @@ footer{
     --padding_left_rigth: 2rem;
     --ancho_maximo: 1200px;
 }
-
 a{
     text-decoration: none;
 }
 ol,ul{
     list-style: none;
 }
-.header{
-    height:var(--altura_heater) ;
-    background-color: var(--color_primario);
-
-}
 .navbar{
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    position: relative;
-    padding: 0 var(--padding_left_rigth);
+    width: 20%;
 }
 .menu_hamburguesa{
     display: none;
@@ -142,7 +115,6 @@ ol,ul{
 .logo{
     color: var(--color_blanco);
 }
-
 .menu{
     color: var(--ancho_maximo);
     cursor: pointer;
@@ -160,23 +132,20 @@ ol,ul{
     align-items: center;
     gap: 3em;
     transition: all .3s;
-    background-color: var(--color_primario);
+    background-color: #FFFFFF;
 }
 .link{
     font-size: 3em;
     color: var(--color_blanco);
     font-weight: bold;
 }
-
 #logo-1{
-    
     width: 100px;
     height: 100px;
     margin: 10px auto;
     padding: 5px;
     display: flex;
     justify-content: center;
-
 }
 figure{
 display: flex;
@@ -187,22 +156,22 @@ width: 70px;
 display: flex;
 justify-content: flex-start;
 height: 50px;
-margin: 10px 50px;
+/*margin: 10px 50px;*/
 }
 .devolver{
-margin: 10px; 
 width: 100px;
-height: 50px;
+height: 75%;
 display: flex;
-justify-content: flex-end;
 cursor: pointer;
 }
-
-
 .user{
    text-align: center;
 }
 /*aqui empieza la lista del carrito*/
+.user img{
+    width: 8%;
+    margin-right: 5%;
+}
 #item-compra{
     display: flex;
     justify-content: center;
@@ -221,9 +190,6 @@ cursor: pointer;
     width: 70px;
     height: 70px;
 }
-.caracteristicas{
-    margin: auto auto;
-}
 .contador{
     display: flex;
     align-items: center;
@@ -235,6 +201,7 @@ cursor: pointer;
     background-color: #141E46;
     padding-bottom: 4%;
     border-radius: 10px;
+    margin: auto 4% 4% 4%
 }
 #item-lista{
     color:#ffffff;
@@ -257,18 +224,14 @@ cursor: pointer;
     display: flex;
     justify-content: center;
 }
-
 #img-encabezado{
     width: 500px;
     height: 200px;
 }
-
 #area-trabajo{
-
     background-color: #141E46;
     margin-top: 100px;
 }
-
 .btn1{
     display: flex;
     justify-content: space-evenly;
@@ -278,9 +241,7 @@ cursor: pointer;
     background-color: #141E46;
     color: white;
     align-items: center;
-
 }
-
 #ayuda{
     font-size: 3em;
     color: #141E46;
@@ -288,28 +249,19 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     margin: 30px 10px;
-    
 }
-
 .boton{
     display: flex;
     justify-content: center;
     margin: 10px;
 }
 
-
-
 /** CSS de vista preguntas frecuentes**/
-
-
-
-
 
 .mb-3{
     justify-content: center;
     width: 100%;
     align-items: center;
-
 }
 .btn{
     display: flex;
@@ -322,9 +274,7 @@ cursor: pointer;
     align-items: center;
     border-color: #ffffff;
     align-items: center;
-
 }
-
 #encabezado{
     width: 100%;
     text-align: center;
@@ -334,9 +284,7 @@ cursor: pointer;
     justify-content: space-evenly;
 }
 
-
 /** Vista producto 2 CSS**/
-
 
 #img-principal{
     width: 389px;
@@ -349,7 +297,7 @@ cursor: pointer;
 }
 .tarjetas-1{
     color: white;
-    width: 89px;
+    width: 20%;
     height: 73px;
     margin: 10px;
     border-radius: 20px;
@@ -357,14 +305,17 @@ cursor: pointer;
     background: #141E46;
     text-align: center;
 }
+.tarjetas-1 p{
+    margin: auto;
+}
 #footerProducto{
     background-color: #BB2525;
-    /*position: relative;*/
     border-radius: 10px;
 }
 .aviso{
     color: white;
     font-size: 25px;
+    margin: 3% 0 0 5%
 }
 .aviso2{
     color: #DFD7BF;
@@ -372,6 +323,7 @@ cursor: pointer;
     font-size: 20px;
 }
 .btn{
+    width: 50%;
     background-color: #FF6969;
     border-radius: 10px;
     height: 37px;
@@ -384,104 +336,72 @@ cursor: pointer;
 .caracteristicas{
     display: flex;
     justify-content: space-around;
-    margin: 10px;
 }
 
 /** Vista productos 1**/
 
-
 .header{
-    width: 180px;
-    margin: 10px auto;
-    padding: 5px;
+    display: flex;
+    justify-content: space-between;
 }
-h2{
-    width: 180px;
-    margin: 10px auto;
-    padding: 5px;
+.header #logo{
+    width: 30%;
 }
 
-
+/*[3 vista productos] actual*/
 .cotenedor-botones{
     display: flex;
-    justify-content: center;
-    padding: 35px;
-   /* width: 550px;
-    margin: auto;
-    min-height: 90vh;*/
+    justify-content: space-between;
+    margin: 6%;
 }
-
-
-/*FALTA QUITAR EL BORDE DE LOS BOTONES*/
-
-/*BOTONES*/
-
 .btn-categ{
     background-color: #FF6969;
-    border-radius: 5px;
-    padding: 10px;
-    color: #141E46;
-    margin-right: 20px;
-    font-family: "Germania One", system-ui;
-    /*height: 40px;*/
+    border-radius: 10px;
+    padding: 2%;
+    border: none;
 }
-
 .btn-categ:hover{
     color: #fff;
     cursor: pointer;
-
 }
-
-
-.contenedor-tarjetas{
-    width: 100%;
-    height: 100%;
+.tajetas{
     display: flex;
-    justify-content: center;
-    
-    
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-
-
 .tarjeta-1{
-    width: 275px;
-    margin: 20px;
-    border-radius: 20px;
-    overflow: hidden;
-    background:#fff;
-    font-family: "Germania One", "system-ui";
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 3%;
+    border-radius: 15px;
+    background:#ffffff;
+    padding: 3%;
 }
-
+.tarjeta-1 h3{
+    font-size: 100%;
+}
+.inferior-tarjeta{
+    display: flex;
+    justify-content: space-evenly;
+}
 #footerProducto1{
-    width: 386px;
-    height: 99px;
+    width: 90%;
     background-color: #141E46;
-    position: relative;
-    bottom: 0;
     border-radius: 10px;
-    margin: 0 10px 10px 10px;
-
+    margin: auto auto 2% auto;
 }
 #contenidoFooter{
     color: white;
     text-align: center;
     font-size: 25px;
-    margin: 35px 0;
+    padding: 2%;
 }
 
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
+/*BOTONES*/
+.contenedor-tarjetas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
