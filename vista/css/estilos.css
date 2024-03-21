@@ -6,21 +6,12 @@ body{
     padding: 15px;
     margin: 10px auto;
 }
-.btn-bienvenida{
-    width: 100%;
-    margin: 10px 15px 0 0;
-    background-color: #141E46;
-    color:   #ffffff;
-    border-radius: 15px;
-}
-#areaDeTrabajo{
+/**[header vista 1, 2 y 2.5]**/
+#header1{
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    justify-content: center;
 }
-
-/** CSS de vista bienvenida**/
-
+/**[vista 1 Bienvenida]**/
 #contenedor-bienvenida{
     padding: 60px 100px;
     border-radius: 45px;
@@ -34,74 +25,38 @@ body{
     color: #141E46;
     text-align: center;
 }
-footer{
-    text-align: center;
-    margin-top: 10px;
-}
-.icons{
-    color: #141E46;
-    margin: 10px 25px;
-}
-
-/** CSS de vista iniciar sesion**/
-
-#contenedor-Ingreso{
-    background-color: #DFD7BF;
-    padding: 60px 100px;
-    border-radius: 45px;
-}
-.icono-usuario{
-    width: 80px;
-    height: 50px;
-    color: #141e46;
-}
-#div-olvido{
-    text-align: center;
-    color: darkslategray;
-}
-.btn-iniciar-sesion{
+.btn-bienvenida{
     width: 100%;
     margin: 10px 15px 0 0;
+    background-color: #141E46;
+    color:   #ffffff;
+    border-radius: 15px;
 }
-.iniciar{
-    color: #141E46;
-    background-color: aqua;
+/**[vista 2 inicio sesión]**/
+.icono-usuario{
+    width: 80px;
 }
-.iniciar-sesion{
-    color: #141E46;
-    background-color: #DFD7BF;
-    display: flex;
-  /* justify-content: center;*/
-    width: 300px;
-    height: 500px;
-    border-radius: 45px;
-    align-items: center;
-    flex-direction: column;
-}
-
-/** CSS de vista Registro**/
-
+/**[vista 2,5 registro]**/
 #contenedor-registro{
     background-color: #DFD7BF;
     padding: 60px 100px;
     border-radius: 45px;
 }
-
-/** CSS de vista producto**/
-
-:root{
-    --color_primario:#FFF5E0;
-    --color_primariosuave:#FFF5E0;
-    --color_blanco:#333;
-    --altura_heater:88px;
-    --padding_left_rigth: 2rem;
-    --ancho_maximo: 1200px;
+/**[footer vista 1, 2 y 2.5]**/
+.icons{
+    color: #141E46;
+    margin: 10px 25px;
 }
-a{
-    text-decoration: none;
+footer{
+    text-align: center;
+    margin-top: 10px;
 }
-ol,ul{
-    list-style: none;
+
+/**______________________________________________________________**/
+/**[header vista 3, 4 y 5]**/
+.header{
+    display: flex;
+    justify-content: space-between;
 }
 .navbar{
     width: 20%;
@@ -109,65 +64,92 @@ ol,ul{
 .menu_hamburguesa{
     display: none;
 }
-.menu_hamburguesa:checked + .ul_links{
-    height: calc(100vh - var(--altura_heater));
-}
-.logo{
-    color: var(--color_blanco);
-}
 .menu{
-    color: var(--ancho_maximo);
+    width: 70px;
     cursor: pointer;
 }
-.ul_links{
-    width: 350px;
-    position: absolute;
-    top: var(--altura_heater);
-    left: 0;
-    height: 0;
-    overflow: hidden;
+.menu_hamburguesa:checked + .ul_links{
+    height: calc(45vh - var(--altura_heater));
+}
+.header #logo{
+    width: 30%;
+}
+.devolver{
+    width: 100px;
+    height: 75%;
+    display: flex;
+    cursor: pointer;
+}
+/**[vista 3 productos]**/
+.cotenedor-botones{
+    display: flex;
+    justify-content: space-between;
+    margin: 6%;
+}
+.btn-categ{
+    background-color: #FF6969;
+    border-radius: 10px;
+    padding: 2%;
+    border: none;
+}
+.btn-categ:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.tajetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tarjeta-1{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3em;
-    transition: all .3s;
-    background-color: #FFFFFF;
+    width: 35%;
+    margin: 3%;
+    border-radius: 15px;
+    background:#ffffff;
+    padding: 3%;
 }
-.link{
-    font-size: 3em;
-    color: var(--color_blanco);
-    font-weight: bold;
+.tarjeta-1 h3{
+    font-size: 100%;
 }
-#logo-1{
-    width: 100px;
-    height: 100px;
+.inferior-tarjeta{
+    display: flex;
+    justify-content: space-evenly;
+}
+#footerProducto1{
+    width: 90%;
+    background-color: #141E46;
+    border-radius: 10px;
+    margin: auto auto 2% auto;
+}
+#contenidoFooter{
+    color: white;
+    font-size: 25px;
+    padding: 2%;
+}
+/**[vista 4 detalles producto]**/
+#img-principal{
+    width: 389px;
+    height: 380px;
     margin: 10px auto;
     padding: 5px;
     display: flex;
-    justify-content: center;
 }
-figure{
-display: flex;
-justify-content: space-between;
+.caracteristicas{
+    display: flex;
+    justify-content: space-around;
 }
-.menu{
-width: 70px;
-display: flex;
-justify-content: flex-start;
-height: 50px;
-/*margin: 10px 50px;*/
+.tarjetas-1{
+    color: white;
+    width: 20%;
+    height: 73px;
+    margin: 10px;
+    border-radius: 20px;
+    background: #141E46;
+    text-align: center;
 }
-.devolver{
-width: 100px;
-height: 75%;
-display: flex;
-cursor: pointer;
-}
-.user{
-   text-align: center;
-}
-/*aqui empieza la lista del carrito*/
+/**[vista 5 carrito de compras]**/
 .user img{
     width: 8%;
     margin-right: 5%;
@@ -213,10 +195,92 @@ cursor: pointer;
     margin: auto;
     border: none;
 }
-/*aqui termina la lista del carrito*/
+/**______________________________________________________________**/
+#areaDeTrabajo{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/** CSS de vista iniciar sesion**/
 
+#contenedor-Ingreso{
+    background-color: #DFD7BF;
+    padding: 60px 100px;
+    border-radius: 45px;
+}
+#div-olvido{
+    text-align: center;
+    color: darkslategray;
+}
+.iniciar{
+    color: #141E46;
+    background-color: aqua;
+}
+.iniciar-sesion{
+    color: #141E46;
+    background-color: #DFD7BF;
+    display: flex;
+  /* justify-content: center;*/
+    width: 300px;
+    height: 500px;
+    border-radius: 45px;
+    align-items: center;
+    flex-direction: column;
+}
+/** CSS de vista producto**/
+:root{
+    --color_primario:#FFF5E0;
+    --color_primariosuave:#FFF5E0;
+    --color_blanco:#333;
+    --altura_heater:88px;
+    --padding_left_rigth: 2rem;
+    --ancho_maximo: 1200px;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+.logo{
+    color: var(--color_blanco);
+}
+.ul_links{
+    width: 350px;
+    position: absolute;
+    top: var(--altura_heater);
+    left: 0;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    transition: all .3s;
+    background-color: #FFFFFF;
+}
+.link{
+    font-size: 3em;
+    color: var(--color_blanco);
+    font-weight: bold;
+}
+#logo-1{
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+figure{
+display: flex;
+justify-content: space-between;
+}
+.user{
+   text-align: center;
+}
 /** CSS de vista ayuda**/
-
 #img-logo-footer{
     width: 140px;
     height: 100px;
@@ -255,9 +319,7 @@ cursor: pointer;
     justify-content: center;
     margin: 10px;
 }
-
 /** CSS de vista preguntas frecuentes**/
-
 .mb-3{
     justify-content: center;
     width: 100%;
@@ -283,28 +345,7 @@ cursor: pointer;
     display: flex;
     justify-content: space-evenly;
 }
-
 /** Vista producto 2 CSS**/
-
-#img-principal{
-    width: 389px;
-    height: 380px;
-    margin: 10px auto;
-    padding: 5px;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 40px;
-}
-.tarjetas-1{
-    color: white;
-    width: 20%;
-    height: 73px;
-    margin: 10px;
-    border-radius: 20px;
-    overflow: hidden;
-    background: #141E46;
-    text-align: center;
-}
 .tarjetas-1 p{
     margin: auto;
 }
@@ -332,76 +373,4 @@ cursor: pointer;
 .boton{
     display: flex;
     justify-content: space-between;
-}
-.caracteristicas{
-    display: flex;
-    justify-content: space-around;
-}
-
-/** Vista productos 1**/
-
-.header{
-    display: flex;
-    justify-content: space-between;
-}
-.header #logo{
-    width: 30%;
-}
-
-/*[3 vista productos] actual*/
-.cotenedor-botones{
-    display: flex;
-    justify-content: space-between;
-    margin: 6%;
-}
-.btn-categ{
-    background-color: #FF6969;
-    border-radius: 10px;
-    padding: 2%;
-    border: none;
-}
-.btn-categ:hover{
-    color: #fff;
-    cursor: pointer;
-}
-.tajetas{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.tarjeta-1{
-    display: flex;
-    flex-direction: column;
-    width: 35%;
-    margin: 3%;
-    border-radius: 15px;
-    background:#ffffff;
-    padding: 3%;
-}
-.tarjeta-1 h3{
-    font-size: 100%;
-}
-.inferior-tarjeta{
-    display: flex;
-    justify-content: space-evenly;
-}
-#footerProducto1{
-    width: 90%;
-    background-color: #141E46;
-    border-radius: 10px;
-    margin: auto auto 2% auto;
-}
-#contenidoFooter{
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    padding: 2%;
-}
-
-/*BOTONES*/
-.contenedor-tarjetas{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
 }
